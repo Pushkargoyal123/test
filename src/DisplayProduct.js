@@ -27,7 +27,6 @@ export default function DisplayProduct(){
     const [pid, setPid]= useState("");
     const [pname, setPname]= useState("");
     const [prate, setPrate]= useState("");
-    const [row, setRow]= useState([]);
 
     var dispatch= useDispatch();
     
